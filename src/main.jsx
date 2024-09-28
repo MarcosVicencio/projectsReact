@@ -18,6 +18,7 @@ root.render(
  <React.Fragment>
   <Button text="Button 1"/>
   <Button text="Button 2"/>
-  <Button text="Button 3"/> 
+  <Button text="Button 3"/>
+  <Button text="Button 4"/> 
  </React.Fragment>
 )
