@@ -1,17 +1,20 @@
 import './App.css'
 export function App (){
     return(
-        <article>
-            <header>
-                <img src="https://unavatar.io/midudev" alt="Avatar de React JS" />
-                <div>
+        <article className='tw-followCard'>
+            <header className='tw-followCard-header'>
+                <img
+                className='tw-followCard-avatar'
+                src="https://unavatar.io/midudev" 
+                alt="Avatar de React JS" />
+                <div className='tw-followCard-info'>
                     <strong>CSS Style Sheet</strong>
-                    <span>@CSS</span>
+                    <span className='tw-followCard-infoUserName'>@CSS</span>
                 </div>
             </header>
 
             <aside>
-                <button>
+                <button className='tw-followCard-button'>
                     Seguir
                 </button>
             </aside>
